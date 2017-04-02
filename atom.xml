@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://neilfitzgerald.github.io/"/>
-  <updated>2017-04-01T21:17:39.000Z</updated>
+  <updated>2017-04-02T15:49:13.000Z</updated>
   <id>https://neilfitzgerald.github.io/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introduction</title>
+    <link href="https://neilfitzgerald.github.io/2017/04/02/Introduction/"/>
+    <id>https://neilfitzgerald.github.io/2017/04/02/Introduction/</id>
+    <published>2017-04-02T16:49:13.000Z</published>
+    <updated>2017-04-02T15:49:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi, I’m Neil. I work at <a href="http://www.vistaprint.com/" target="_blank" rel="external">Vistaprint</a>. I spend most of my time writing software or tools to help test other software. </p>
+<p>I’m not a great writer. I tend to have poor transitions and leave things out. I use too many big words and long sentences. I’m working on it.</p>
+<p>I’ve worked in the software industry for over 20 years. I’ve been around the block a bit. During that time I’ve had enough experiences with testing, software quality, and management to develop some thoughts on these topics. I plan to focus this blog mostly on these topics.</p>
+<p>I’m constantly having to learn new technologies, and will likely will include some stuff on that too.</p>
+<p>I’m into photography, kayaking and travel, go see my G+ for more of that. I took the picture that is used as the background on the about page.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Who-am-I&quot;&gt;&lt;a href=&quot;#Who-am-I&quot; class=&quot;headerlink&quot; title=&quot;Who am I&quot;&gt;&lt;/a&gt;Who am I&lt;/h1&gt;&lt;p&gt;Hi, I’m Neil. I work at &lt;a href=&quot;http://www.vi
+    
+    </summary>
+    
+    
+      <category term="Bio" scheme="https://neilfitzgerald.github.io/tags/Bio/"/>
+    
+      <category term="Objective" scheme="https://neilfitzgerald.github.io/tags/Objective/"/>
+    
+  </entry>
   
   <entry>
     <title>The Fit Process</title>
