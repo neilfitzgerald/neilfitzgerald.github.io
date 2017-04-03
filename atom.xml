@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://neilfitzgerald.github.io/"/>
-  <updated>2017-04-02T16:19:33.000Z</updated>
+  <updated>2017-04-03T14:58:09.000Z</updated>
   <id>https://neilfitzgerald.github.io/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://neilfitzgerald.github.io/2017/04/02/Mistakes-get-repeated/"/>
     <id>https://neilfitzgerald.github.io/2017/04/02/Mistakes-get-repeated/</id>
     <published>2017-04-02T17:19:33.000Z</published>
-    <updated>2017-04-02T16:19:33.000Z</updated>
+    <updated>2017-04-03T14:58:09.000Z</updated>
     
-    <content type="html"><![CDATA[<p>One of the strategies I find myself returning to for testing is looking at the kinds of mistakes that are made. Often a pattern can be found. Individuals tend to make the same type of mistake over and over. For groups, areas that are complex are repeatedly forgotten when the connection to the current change is not obvious. </p>
+    <content type="html"><![CDATA[<p>One of the strategies I find myself returning to for testing is looking at the kinds of mistakes that are made. Often a pattern can be found. Individuals tend to make the same type of mistake over and over. <a id="more"></a>For groups, areas that are complex are repeatedly forgotten when the connection to the current change is not obvious. </p>
 <p>There are many strategies to help counter this tendency to repeat mistakes. If the problem is common across the group a checklist can be very effective as a short term fix. If it’s particular to an individual, collaborating on a strategy that works for them often is effective.</p>
 <p>It reflects on the maturity and experience of the developer on how open they are to feedback. A good developer is always looking to up their game. They will find ways change their process to reduce their errors. </p>
 <p>The industry has already identified a number of of practices that can reduce errors, and have automated solutions. Unit testing and checking code coverage is one such practice. Static code analysis such as using a linter is another. Considering how a problem can be avoided by automating a process. </p>
@@ -41,7 +41,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;One of the strategies I find myself returning to for testing is looking at the kinds of mistakes that are made. Often a pattern can be fo
+      &lt;p&gt;One of the strategies I find myself returning to for testing is looking at the kinds of mistakes that are made. Often a pattern can be found. Individuals tend to make the same type of mistake over and over.
     
     </summary>
     
@@ -65,9 +65,10 @@
     <link href="https://neilfitzgerald.github.io/2017/04/02/Introduction/"/>
     <id>https://neilfitzgerald.github.io/2017/04/02/Introduction/</id>
     <published>2017-04-02T16:49:13.000Z</published>
-    <updated>2017-04-02T16:26:13.000Z</updated>
+    <updated>2017-04-03T14:55:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>Hi, I’m Neil. I work at <a href="http://www.vistaprint.com/" target="_blank" rel="external">Vistaprint</a>. I spend most of my time writing software or tools to help test other software. </p>
+<a id="more"></a>
 <p>I’m not a great writer. I tend to have poor transitions and leave things out. I use too many big words and long sentences. I’m working on it.</p>
 <p>I’ve worked in the software industry for over 20 years. I’ve been around the block a bit. During that time I’ve had enough experiences with testing, software quality, and management to develop some thoughts on these topics. I plan to focus this blog mostly on these topics.</p>
 <p>I’m constantly having to learn new technologies, and will likely will include some stuff on that too.</p>
@@ -76,7 +77,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Hi, I’m Neil. I work at &lt;a href=&quot;http://www.vistaprint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vistaprint&lt;/a&gt;. I spend most of my time writi
+      &lt;p&gt;Hi, I’m Neil. I work at &lt;a href=&quot;http://www.vistaprint.com/&quot;&gt;Vistaprint&lt;/a&gt;. I spend most of my time writing software or tools to help test other software. &lt;/p&gt;
     
     </summary>
     
@@ -92,9 +93,9 @@
     <link href="https://neilfitzgerald.github.io/2017/04/01/The-Fit-Process/"/>
     <id>https://neilfitzgerald.github.io/2017/04/01/The-Fit-Process/</id>
     <published>2017-04-01T22:14:30.000Z</published>
-    <updated>2017-04-01T21:17:39.000Z</updated>
+    <updated>2017-04-03T14:58:09.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Early in my career I worked for a company that tried to adopt the ISO 9000 standard to drive the software development process. I was already working on a disaster project, with both poor design and implementation. Rather than help correct course on the project the attempt to adopt the standard added to the chaos. Progress on the project was already crawling, ground to almost a halt. The sign-off process required by the standard significantly slowed decision making and getting things done. Reams of write once, read never paperwork was generated. When an ISO 9000 auditor was brought in, the project manager generated lots of post facto records simply to comply with the standard and pass the audit.</p>
+    <content type="html"><![CDATA[<p>Early in my career I worked for a company that tried to adopt the ISO 9000 standard to drive the software development process. I was already working on a disaster project, with both poor design and implementation. Rather than help correct course on the project the attempt to adopt the standard added to the chaos. <a id="more"></a>Progress on the project was already crawling, ground to almost a halt. The sign-off process required by the standard significantly slowed decision making and getting things done. Reams of write once, read never paperwork was generated. When an ISO 9000 auditor was brought in, the project manager generated lots of post facto records simply to comply with the standard and pass the audit.</p>
 <p>All the work to comply with the standard resulted in negative quality results. All the projects in the department were delayed in delivery, with negative to no increase in quality. The paper work requirements proved to be an excessive burden for the quality goals for the projects in our department. The incentives as setup for the audit and standard did not generate a virtuous cycle of improvement, rather it created incentives to circumvent the process and emphasised compliance with the process, rather than doing what was right to deliver the projects meeting the delivery and quality goals of the company.</p>
 <p>More recently I have worked for companies that have adopted aspects of agile processes. In general, the more the process is attempted to be applied cookie cutter as described in its idealized form, the less successful it tended to be. Agile process tends to be more successful, when practices are adopted when they make sense for a project, and with flexibility to adjust and adapt the practices to fit the character, development, and goals of a team.</p>
 <h2 id="Key-learnings-about-process"><a href="#Key-learnings-about-process" class="headerlink" title="Key learnings about process:"></a>Key learnings about process:</h2><ul>
@@ -122,7 +123,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Early in my career I worked for a company that tried to adopt the ISO 9000 standard to drive the software development process. I was alre
+      &lt;p&gt;Early in my career I worked for a company that tried to adopt the ISO 9000 standard to drive the software development process. I was already working on a disaster project, with both poor design and implementation. Rather than help correct course on the project the attempt to adopt the standard added to the chaos.
     
     </summary>
     
