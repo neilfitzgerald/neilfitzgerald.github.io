@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://neilfitzgerald.github.io/"/>
-  <updated>2017-04-05T12:07:40.000Z</updated>
+  <updated>2017-04-06T09:59:46.000Z</updated>
   <id>https://neilfitzgerald.github.io/</id>
   
   <author>
@@ -14,6 +14,113 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Requirements are Never Complete</title>
+    <link href="https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/"/>
+    <id>https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/</id>
+    <published>2017-04-06T10:57:25.000Z</published>
+    <updated>2017-04-06T09:59:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Requirements for software of any complexity, are never complete. There are always unstated assumptions, edge cases, and ambiguities that will remain. <a id="more"></a> Time does not stand still, and things change. New requirements and rules emerge in the usual business of developing software and feedback from the users. </p>
+<p>See my post on <a href="/2017/04/06/Document-to-the-Right-Level">Document to the Right Level</a> for more about thinking about how much to document.</p>
+<p>Different strategies are appropriate depending on circumstances to learn more and to make decisions about requirements. Develop good judgement as to when to apply a strategy.</p>
+<h2 id="Common-Strategies"><a href="#Common-Strategies" class="headerlink" title="Common Strategies"></a>Common Strategies</h2><ul>
+<li>Make a judgement call<ul>
+<li>Sometimes just making a call as to how things should behave is appropriate.</li>
+</ul>
+</li>
+<li>Refer to standards<ul>
+<li>Standards can provide good guidance on decision making. That standard can be one that has evolved specifically for that project, or an external one.</li>
+</ul>
+</li>
+<li>Talk to stakeholders<ul>
+<li>Often there is a product owner who has deep knowledge of the users and the problem space. If there are cost implications in terms of time to implement, and maintainability, be sure to flag those to the stakeholders. Sometimes a less complete, or less elegant solution, will be the choice due to the costs of the more complex solution.</li>
+<li>Be sure you know who the important stakeholders are that you need buy in from.</li>
+<li>Learn the level of detail stakeholders want to be engaged at.</li>
+</ul>
+</li>
+<li>Refer to similar solutions<ul>
+<li>Competing or similar solutions may have set user expectations for how a feature should behave. This can be a good proxy to talking to actual users.</li>
+</ul>
+</li>
+<li>Talk to users<ul>
+<li>Finding out what your users actually need and want by talking to them is often an effective method, but can be relatively expensive. Some interpretation is needed. Users often can’t state their feedback in a way that can be directly applied to a particular question.  </li>
+<li>User feedback is most useful for incremental changes.</li>
+</ul>
+</li>
+<li>Test user alternatives<ul>
+<li>Testing alternative by putting them in front of real users is the ultimate check on the benefit and usability of alternatives. </li>
+</ul>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="https://en.wikipedia.org/wiki/Requirements_elicitation" target="_blank" rel="external">Requirements elicitation</a>. (n.d.). In Wikipedia.  </li>
+<li><a href="https://en.wikipedia.org/wiki/Software_requirements" target="_blank" rel="external">Software requirements</a>. (n.d.). In Wikipedia.</li>
+<li><a href="https://www.mitre.org/publications/systems-engineering-guide/se-lifecycle-building-blocks/requirements-engineering/eliciting-collecting-and-developing-requirements" target="_blank" rel="external">Eliciting, Collecting, and Developing Requirements</a>. (2014). Mitre. In Systems Engineering Guide. </li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Requirements for software of any complexity, are never complete. There are always unstated assumptions, edge cases, and ambiguities that will remain.
+    
+    </summary>
+    
+    
+      <category term="On Documentation" scheme="https://neilfitzgerald.github.io/tags/On-Documentation/"/>
+    
+      <category term="Documentation" scheme="https://neilfitzgerald.github.io/tags/Documentation/"/>
+    
+      <category term="Requirements" scheme="https://neilfitzgerald.github.io/tags/Requirements/"/>
+    
+      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+    
+      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Document to the Right Level</title>
+    <link href="https://neilfitzgerald.github.io/2017/04/06/Document-to-the-Right-Level/"/>
+    <id>https://neilfitzgerald.github.io/2017/04/06/Document-to-the-Right-Level/</id>
+    <published>2017-04-06T10:54:27.000Z</published>
+    <updated>2017-04-06T09:54:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Documentation of functionality or test cases is always imperfect. The trick is to do enough to serve your needs, and not waste effort on documentation that will never be used. <a id="more"></a> Specifications and requirements have a way of changing and getting out of date, that quickly makes them obsolete. The effort to go back and keep them up to date needs to be weighed against the benefit of moving on to the next thing. </p>
+<p>Documenting what testing should be done, and what was done is an area that should be adjusted to the situation. Who is doing the testing? If you are outsourcing testing to unknown contractors, who have little familiarity with your application, you will need to document test cases in exquisite detail. If you are using a small team, of dedicated testers who quickly become experts in the application, the level of documentation can be much more high level. </p>
+<p>What are the stakes involved in the software? Software that deals with financial, medical, nuclear situations will require much more rigorous process and documentation. Most businesses, can do with much less as speed of delivery is more important.</p>
+<p>How complex is a specific piece of functionality? If it needs to operate by a set of complex rules and algorithms, than more documentation is warranted. If you are essentially cloning existing simple functionality, a simple reference to that maybe sufficient.</p>
+<p>How large is your team? The bigger the team, the more will need to be documented to facilitate keeping the team on the same page.</p>
+<p>For features, is there enough detail to implement as described? Can a developer quickly clarify any ambiguity? Does a developer have the authority to make decisions when there is ambiguity? Is there enough detail for a tester, to know what to test, and what is important?</p>
+<p>When a developer is handing off a feature to be tested by others, is there enough information to know what and how to test? If the developer already tested some aspects of the feature, on specific platforms, is that communicated so that testers can focus on areas that might have been missed?</p>
+<p>As you situation changes, you will need to adjust your level of detail to that required by the situation. Be aware of your own leanings of over or under documenting.</p>
+<h2 id="Key-Point"><a href="#Key-Point" class="headerlink" title="Key Point"></a>Key Point</h2><ul>
+<li>Use good judgement on how much time to invest in documentation. Cost in time must be weighed with other priorities, and the benefit of having the documentation.</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="https://en.wikipedia.org/wiki/Software_documentation" target="_blank" rel="external">Software documentation</a>. (n.d.). In Wikipedia.    </li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Documentation of functionality or test cases is always imperfect. The trick is to do enough to serve your needs, and not waste effort on documentation that will never be used.
+    
+    </summary>
+    
+    
+      <category term="On Documentation" scheme="https://neilfitzgerald.github.io/tags/On-Documentation/"/>
+    
+      <category term="Documentation" scheme="https://neilfitzgerald.github.io/tags/Documentation/"/>
+    
+      <category term="Requirements" scheme="https://neilfitzgerald.github.io/tags/Requirements/"/>
+    
+      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+    
+      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
+    
+  </entry>
   
   <entry>
     <title>Learn to Take Multiple Perspectives</title>
@@ -91,11 +198,11 @@
     </summary>
     
     
+      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+    
       <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
     
       <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
-    
-      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
     
       <category term="Detail" scheme="https://neilfitzgerald.github.io/tags/Detail/"/>
     
@@ -132,13 +239,13 @@
     </summary>
     
     
-      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
-    
-      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
-    
       <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
     
       <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
+    
+      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
+    
+      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
     
       <category term="Bugs" scheme="https://neilfitzgerald.github.io/tags/Bugs/"/>
     
@@ -214,13 +321,13 @@
     </summary>
     
     
-      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
-    
-      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
-    
       <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
     
       <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
+    
+      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
+    
+      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
     
       <category term="Management" scheme="https://neilfitzgerald.github.io/tags/Management/"/>
     

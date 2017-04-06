@@ -6,23 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Neil Fitzgerald on ...">
-    <title>Learn to Take Multiple Perspectives - Neil Fitzgerald on ...</title>
+    <title>Requirements are Never Complete - Neil Fitzgerald on ...</title>
     <meta name="author" content="Neil Fitzgerald">
     
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Expand your effectiveness by learning to take multiple perspectives. This expands the number of possible solutions and options you have.">
+    <meta name="description" content="Requirements for software of any complexity, are never complete. There are always unstated assumptions, edge cases, and ambiguities that will remain.">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Learn to Take Multiple Perspectives">
-<meta property="og:url" content="https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/index.html">
+<meta property="og:title" content="Requirements are Never Complete">
+<meta property="og:url" content="https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/index.html">
 <meta property="og:site_name" content="Neil Fitzgerald on ...">
-<meta property="og:description" content="Expand your effectiveness by learning to take multiple perspectives. This expands the number of possible solutions and options you have.">
-<meta property="og:updated_time" content="2017-04-05T12:07:40.000Z">
+<meta property="og:description" content="Requirements for software of any complexity, are never complete. There are always unstated assumptions, edge cases, and ambiguities that will remain.">
+<meta property="og:updated_time" content="2017-04-06T09:59:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Learn to Take Multiple Perspectives">
-<meta name="twitter:description" content="Expand your effectiveness by learning to take multiple perspectives. This expands the number of possible solutions and options you have.">
+<meta name="twitter:title" content="Requirements are Never Complete">
+<meta name="twitter:description" content="Requirements for software of any complexity, are never complete. There are always unstated assumptions, edge cases, and ambiguities that will remain.">
 <meta name="twitter:creator" content="@nfitzgerald_72">
     
         <meta rel="publisher" content="https://plus.google.com/+NeilFitzgerald"/>
@@ -215,13 +215,13 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Learn to Take Multiple Perspectives
+            Requirements are Never Complete
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" datetime="2017-04-05T09:07:40-04:00">
+    <time itemprop="datePublished" datetime="2017-04-06T06:57:25-04:00">
 	
-		    Apr 05, 2017
+		    Apr 06, 2017
     	
     </time>
     
@@ -231,15 +231,42 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Expand your effectiveness by learning to take multiple perspectives. This expands the number of possible solutions and options you have. <a id="more"></a>In testing, it will allow you to generate more test cases and possible ways to find problems. When problem solving it can open up new paths to different solutions.</p>
-<p>For example, with software testing, one of the basic skills is to be able to generate a list of things to test (test cases). Most people can look at the straight forward functionality presented and figure out combinations of things to test based on the spelled out functionality. If you start looking at it from other angles you can find more. </p>
-<p>From a technological perspective what technologies were used? For example knowing that it is a web application backed by a SQL database, that uses HTML and JavaScript on the front end opens up a set of things that could have been overlooked. If you put SQL into text entry fields does it get processes (SQL Injection). If you put characters that have special meaning in HTML into your text inputs, are they handled appropriately?</p>
-<p>From a business perspective does the functionality fulfill the business needs of earning money at reasonable cost. If it costs money every time a particular service is called, or if you are not managing your machine instances in the cloud for cost, are you best serving your business? Do the features line up with marketing promises to customers? Are there competitors that you need to differentiate from, or match capabilities with? Will a feature make the business more likely to earn more or less money?</p>
-<p>From the customer perspective, does the software allow you to accomplish the tasks you want to with the software? How hard it is to accomplish common tasks? What is going to annoy you? What is going to delight you?</p>
-<p>From a psychological perspective, what people were involved in building the software? What are their blind spots? What mistakes do they tend to make? How do they approach problems?</p>
-<p>There are more perspectives to take. By going deeper, beyond the first level of the obvious, you can more quickly identify problems, and consider additional solutions.</p>
-<h2 id="Key-Point"><a href="#Key-Point" class="headerlink" title="Key Point"></a>Key Point</h2><ul>
-<li>Being able to take multiple perspectives expands your effectiveness, by expanding the problem solving approaches available.</li>
+            <p>Requirements for software of any complexity, are never complete. There are always unstated assumptions, edge cases, and ambiguities that will remain. <a id="more"></a> Time does not stand still, and things change. New requirements and rules emerge in the usual business of developing software and feedback from the users. </p>
+<p>See my post on <a href="/2017/04/06/Document-to-the-Right-Level">Document to the Right Level</a> for more about thinking about how much to document.</p>
+<p>Different strategies are appropriate depending on circumstances to learn more and to make decisions about requirements. Develop good judgement as to when to apply a strategy.</p>
+<h2 id="Common-Strategies"><a href="#Common-Strategies" class="headerlink" title="Common Strategies"></a>Common Strategies</h2><ul>
+<li>Make a judgement call<ul>
+<li>Sometimes just making a call as to how things should behave is appropriate.</li>
+</ul>
+</li>
+<li>Refer to standards<ul>
+<li>Standards can provide good guidance on decision making. That standard can be one that has evolved specifically for that project, or an external one.</li>
+</ul>
+</li>
+<li>Talk to stakeholders<ul>
+<li>Often there is a product owner who has deep knowledge of the users and the problem space. If there are cost implications in terms of time to implement, and maintainability, be sure to flag those to the stakeholders. Sometimes a less complete, or less elegant solution, will be the choice due to the costs of the more complex solution.</li>
+<li>Be sure you know who the important stakeholders are that you need buy in from.</li>
+<li>Learn the level of detail stakeholders want to be engaged at.</li>
+</ul>
+</li>
+<li>Refer to similar solutions<ul>
+<li>Competing or similar solutions may have set user expectations for how a feature should behave. This can be a good proxy to talking to actual users.</li>
+</ul>
+</li>
+<li>Talk to users<ul>
+<li>Finding out what your users actually need and want by talking to them is often an effective method, but can be relatively expensive. Some interpretation is needed. Users often can’t state their feedback in a way that can be directly applied to a particular question.  </li>
+<li>User feedback is most useful for incremental changes.</li>
+</ul>
+</li>
+<li>Test user alternatives<ul>
+<li>Testing alternative by putting them in front of real users is the ultimate check on the benefit and usability of alternatives. </li>
+</ul>
+</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="https://en.wikipedia.org/wiki/Requirements_elicitation" target="_blank" rel="external">Requirements elicitation</a>. (n.d.). In Wikipedia.  </li>
+<li><a href="https://en.wikipedia.org/wiki/Software_requirements" target="_blank" rel="external">Software requirements</a>. (n.d.). In Wikipedia.</li>
+<li><a href="https://www.mitre.org/publications/systems-engineering-guide/se-lifecycle-building-blocks/requirements-engineering/eliciting-collecting-and-developing-requirements" target="_blank" rel="external">Eliciting, Collecting, and Developing Requirements</a>. (2014). Mitre. In Systems Engineering Guide. </li>
 </ul>
 
             
@@ -250,7 +277,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/Effectiveness/">Effectiveness</a> <a class="tag tag--primary tag--small t-link" href="/tags/On-Testing/">On Testing</a> <a class="tag tag--primary tag--small t-link" href="/tags/Perspective-Taking/">Perspective Taking</a> <a class="tag tag--primary tag--small t-link" href="/tags/Quality/">Quality</a> <a class="tag tag--primary tag--small t-link" href="/tags/Test-Case-Generation/">Test Case Generation</a> <a class="tag tag--primary tag--small t-link" href="/tags/Testing/">Testing</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/Documentation/">Documentation</a> <a class="tag tag--primary tag--small t-link" href="/tags/On-Documentation/">On Documentation</a> <a class="tag tag--primary tag--small t-link" href="/tags/Process/">Process</a> <a class="tag tag--primary tag--small t-link" href="/tags/Requirements/">Requirements</a> <a class="tag tag--primary tag--small t-link" href="/tags/Software-Development-Lifecycle/">Software Development Lifecycle</a>
 
             </div>
         
@@ -259,7 +286,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/06/Document-to-the-Right-Level/"  data-tooltip="Document to the Right Level">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -267,7 +294,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/04/Sweat-the-Details/" data-tooltip="Sweat the Details">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/06/Document-to-the-Right-Level/" data-tooltip="Document to the Right Level">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -282,17 +309,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -340,7 +367,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/06/Document-to-the-Right-Level/"  data-tooltip="Document to the Right Level">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -348,7 +375,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/04/Sweat-the-Details/" data-tooltip="Sweat the Details">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/06/Document-to-the-Right-Level/" data-tooltip="Document to the Right Level">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -363,17 +390,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -399,17 +426,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/">
                 <i class="fa fa-twitter"></i><span>Share on Twitter</span>
             </a>
         </li>
@@ -464,9 +491,9 @@
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'https://neilfitzgerald.github.io/2017/04/05/Learn-to-Take-Multiple-Perspectives/';
+                 this.page.url = 'https://neilfitzgerald.github.io/2017/04/06/Requirements-are-Never-Complete/';
                  
-                    this.page.identifier = '2017/04/05/Learn-to-Take-Multiple-Perspectives/';
+                    this.page.identifier = '2017/04/06/Requirements-are-Never-Complete/';
                                   
              };
             (function() {
