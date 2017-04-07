@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://neilfitzgerald.github.io/"/>
-  <updated>2017-04-06T09:59:46.000Z</updated>
+  <updated>2017-04-07T11:23:14.000Z</updated>
   <id>https://neilfitzgerald.github.io/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Aesthetics and Usability Matter</title>
+    <link href="https://neilfitzgerald.github.io/2017/04/07/Aesthetics-and-Usability-Matter/"/>
+    <id>https://neilfitzgerald.github.io/2017/04/07/Aesthetics-and-Usability-Matter/</id>
+    <published>2017-04-07T12:20:55.000Z</published>
+    <updated>2017-04-07T11:23:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>The aesthetics (look and feel) and usability of a user facing application matter. Users will form perceptions about the software based on these factors. <a id="more"></a> An interface that looks good and feels good to interact with provides confidence to the user that your application is well built and suited to its task.</p>
+<p>The aesthetics is important in the initial perception as users initially try out an application, and are using it at a superficial level. That initial experience will be important in make the emotional component of the decision making that will lead them to purchase or continue to use the application. It also helps shape the brand perception of the application. The aesthetics also tie into usability, in that they help guide the user to the parts of the user interface that they need for a particular task. </p>
+<p>Usability is critical in enabling users to get their tasks done in an application. The challenge is often there are multiple audiences to make happy. What helps the basic user, may feel like a burden to the power user. Consistent user interactions speed the learning curve on an application, and help users know what to expect from an application. Leveraging existing user interface paradigms that users are familiar with also helps with this learning curve.</p>
+<p>Both aesthetics and usability are important in the ongoing emotional relationship users have with an application. Is the application seen as easy to use? Is the application seen as a necessary evil to get the job done? Does is make the user’s life easier? Does the user feel good about using the application at the end of the day? Does the application fit with a user’s self identity?</p>
+<h2 id="Key-Point"><a href="#Key-Point" class="headerlink" title="Key Point"></a>Key Point</h2><ul>
+<li>User’s perception of and happiness with an application are greatly influenced by the aesthetics and usability of that application.</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="https://en.wikipedia.org/wiki/Usability" target="_blank" rel="external">Usability</a>. (n.d.). In Wikipedia.   </li>
+<li><a href="https://www.usability.gov/" target="_blank" rel="external">Usability.gov</a>. (n.d.)</li>
+<li><a href="https://en.wikipedia.org/wiki/Usability_testing" target="_blank" rel="external">Usability testing</a>. (n.d.). In Wikipedia.</li>
+<li><a href="https://www.nngroup.com/articles/usability-101-introduction-to-usability/" target="_blank" rel="external">Usability 101: Introduction to Usability</a>. Jakob Nielsen. (January 4, 2012). In Nielsen Norman Group.</li>
+<li><a href="http://www.usabilityfirst.com/" target="_blank" rel="external">http://www.usabilityfirst.com/</a></li>
+<li><a href="https://medium.com/@ux_in_motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc" target="_blank" rel="external">Creating Usability with Motion: The UX in Motion Manifesto</a>. Issara Willenskomer. (March 31, 2017). In @ux_in_motion on Medium.com</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The aesthetics (look and feel) and usability of a user facing application matter. Users will form perceptions about the software based on these factors.
+    
+    </summary>
+    
+    
+      <category term="On Testing" scheme="https://neilfitzgerald.github.io/tags/On-Testing/"/>
+    
+      <category term="Testing" scheme="https://neilfitzgerald.github.io/tags/Testing/"/>
+    
+      <category term="Usability" scheme="https://neilfitzgerald.github.io/tags/Usability/"/>
+    
+      <category term="Aestetics" scheme="https://neilfitzgerald.github.io/tags/Aestetics/"/>
+    
+      <category term="Look and Feel" scheme="https://neilfitzgerald.github.io/tags/Look-and-Feel/"/>
+    
+      <category term="User Perception" scheme="https://neilfitzgerald.github.io/tags/User-Perception/"/>
+    
+  </entry>
   
   <entry>
     <title>Requirements are Never Complete</title>
@@ -275,9 +320,9 @@
     </summary>
     
     
-      <category term="Bio" scheme="https://neilfitzgerald.github.io/tags/Bio/"/>
-    
       <category term="Objective" scheme="https://neilfitzgerald.github.io/tags/Objective/"/>
+    
+      <category term="Bio" scheme="https://neilfitzgerald.github.io/tags/Bio/"/>
     
   </entry>
   
