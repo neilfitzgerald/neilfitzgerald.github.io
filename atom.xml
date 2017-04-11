@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://neilfitzgerald.github.io/"/>
-  <updated>2017-04-09T17:27:43.000Z</updated>
+  <updated>2017-04-11T13:05:54.000Z</updated>
   <id>https://neilfitzgerald.github.io/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Going Round the World</title>
+    <link href="https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/"/>
+    <id>https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/</id>
+    <published>2017-04-11T14:05:54.000Z</published>
+    <updated>2017-04-11T13:05:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Internationalizing your website or application is both easy, and hard. At the basic level it’s substituting in different strings and resources based on locale, but it gets much more complicated quickly.<a id="more"></a></p>
+<p>For example, an application I was dealing with was re-using many of its language keys. It turned out that verb tense in a page header needed to be different then in a dialog in russian. In english and many other languages the you could use the same phrase in both places. This example shows you can’t just assume that a direct translation can always be used in multiple places.</p>
+<p>In another instance a website used a completely different design and authentic in Japan to gain significantly more traffic vs. the standard design used in other countries. In another case involving Japan, an issue for a website was only showing up when run on the localized version of the operating system.</p>
+<p>In all localized applications or websites I’ve dealt with length of text was an issue. It’s common for a design that looks fine in english, but to have words overflow, or wrap in odd ways in other languages. This also impact the limits for data entry elements in the user interface. Usually you want to make sure the limit is high enough that it can accommodate locale specific needs. </p>
+<p>Most languages are left to right languages. In these languages, things are scanned from the top left down to the right. Right to left languages and cultures like hebrew and arabic, are scanned from the top right and down to the left, requiring moving many user interface elements to truly localize. To add to the complication, you may have items that are left to right, embedded inside a right to left language. In a case I was involved with, we had to talk to someone who spoke and wrote the language to understand how it should behave.</p>
+<p>Choices of colors, icons, and imagery can be impacted by locale. A particularly sensitive example for symbols is the swastika. In many countries it is a stigmatized symbol due to its association with Nazism. In India, where the symbol first appeared thousands of years ago, it is a sacred religious symbol. </p>
+<p>Many of the technologies used today take care of the multi-byte nature of many languages. If something is being developed in a more low level language like C++, this may become more of a factor to look into.</p>
+<p>Make sure you have a good process in place to get things translated. There is a need to factor in turnaround time, especially if you are using contract translators. With a good process, and proper review of your locale specific changes, your users around the world will have better experiences and your business better results.</p>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Keep a lookout for items in the default language (usually english) when looking at other locales.</li>
+<li>Use different keys for each location text appears.</li>
+<li>Look at the user interface in the most highly verbose languages.<ul>
+<li>Usually Germanic or Nordic languages have the longest words. Norwegian can be longer than German.</li>
+</ul>
+</li>
+<li>Make sure colors are reviewed by a local. Colors can carry different associations depending on locale.</li>
+<li>Make sure images, icons, and messaging are reviewed by a local. Some maybe offensive, or not carry the intended message for a locale.</li>
+</ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
+<li><a href="http://www.lipsum.com/" target="_blank" rel="external">Lorem Ipsum</a>. (n.d.)</li>
+<li><a href="http://www.campaignasia.com/article/cultural-blunders-brands-gone-wrong/426043" target="_blank" rel="external">Cultural blunders: Brands gone wrong</a>. Mike Fromowitz. (October 7, 2013) In Campaign. </li>
+<li><a href="https://en.wikipedia.org/wiki/Brand_blunder" target="_blank" rel="external">Brand blunder</a> (n.d.) In Wikipidia.</li>
+<li><a href="https://www.triphobo.com/blog/significance-of-colors-in-various-cultures" target="_blank" rel="external">Colours and Their Meanings in Different Cultures Around the World</a>. Neha Kapoor. (Febuary 17, 2016). In TripHobo. </li>
+<li><a href="http://en.wikipedia.org/wiki/Swastika" target="_blank" rel="external">Swastika</a>. (n.d.) In Wikipedia.</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Internationalizing your website or application is both easy, and hard. At the basic level it’s substituting in different strings and resources based on locale, but it gets much more complicated quickly.
+    
+    </summary>
+    
+    
+      <category term="On Testing" scheme="https://neilfitzgerald.github.io/tags/On-Testing/"/>
+    
+      <category term="Testing" scheme="https://neilfitzgerald.github.io/tags/Testing/"/>
+    
+      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+    
+      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
+    
+      <category term="Internationalization" scheme="https://neilfitzgerald.github.io/tags/Internationalization/"/>
+    
+      <category term="Localization" scheme="https://neilfitzgerald.github.io/tags/Localization/"/>
+    
+  </entry>
   
   <entry>
     <title>Find it Fast</title>
@@ -46,11 +101,11 @@
     
       <category term="Testing" scheme="https://neilfitzgerald.github.io/tags/Testing/"/>
     
+      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
+    
       <category term="Effectiveness" scheme="https://neilfitzgerald.github.io/tags/Effectiveness/"/>
     
       <category term="Bugs" scheme="https://neilfitzgerald.github.io/tags/Bugs/"/>
-    
-      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
     
   </entry>
   
@@ -152,8 +207,6 @@
     </summary>
     
     
-      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
-    
       <category term="On Documentation" scheme="https://neilfitzgerald.github.io/tags/On-Documentation/"/>
     
       <category term="Documentation" scheme="https://neilfitzgerald.github.io/tags/Documentation/"/>
@@ -161,6 +214,8 @@
       <category term="Requirements" scheme="https://neilfitzgerald.github.io/tags/Requirements/"/>
     
       <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+    
+      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
     
   </entry>
   
@@ -194,8 +249,6 @@
     </summary>
     
     
-      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
-    
       <category term="On Documentation" scheme="https://neilfitzgerald.github.io/tags/On-Documentation/"/>
     
       <category term="Documentation" scheme="https://neilfitzgerald.github.io/tags/Documentation/"/>
@@ -203,6 +256,8 @@
       <category term="Requirements" scheme="https://neilfitzgerald.github.io/tags/Requirements/"/>
     
       <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+    
+      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
     
   </entry>
   
@@ -236,13 +291,13 @@
     
       <category term="Testing" scheme="https://neilfitzgerald.github.io/tags/Testing/"/>
     
-      <category term="Effectiveness" scheme="https://neilfitzgerald.github.io/tags/Effectiveness/"/>
-    
       <category term="Test Case Generation" scheme="https://neilfitzgerald.github.io/tags/Test-Case-Generation/"/>
     
       <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
     
       <category term="Perspective Taking" scheme="https://neilfitzgerald.github.io/tags/Perspective-Taking/"/>
+    
+      <category term="Effectiveness" scheme="https://neilfitzgerald.github.io/tags/Effectiveness/"/>
     
   </entry>
   
@@ -284,9 +339,9 @@
     
       <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
     
-      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
-    
       <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
+    
+      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
     
       <category term="Detail" scheme="https://neilfitzgerald.github.io/tags/Detail/"/>
     
@@ -323,15 +378,15 @@
     </summary>
     
     
-      <category term="Bugs" scheme="https://neilfitzgerald.github.io/tags/Bugs/"/>
+      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
     
       <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
     
-      <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
+      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
     
       <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
     
-      <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
+      <category term="Bugs" scheme="https://neilfitzgerald.github.io/tags/Bugs/"/>
     
       <category term="Best Practices" scheme="https://neilfitzgerald.github.io/tags/Best-Practices/"/>
     
@@ -405,13 +460,13 @@
     </summary>
     
     
-      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
-    
       <category term="Process" scheme="https://neilfitzgerald.github.io/tags/Process/"/>
     
-      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
+      <category term="Software Development Lifecycle" scheme="https://neilfitzgerald.github.io/tags/Software-Development-Lifecycle/"/>
     
       <category term="On Process" scheme="https://neilfitzgerald.github.io/tags/On-Process/"/>
+    
+      <category term="Quality" scheme="https://neilfitzgerald.github.io/tags/Quality/"/>
     
       <category term="Management" scheme="https://neilfitzgerald.github.io/tags/Management/"/>
     

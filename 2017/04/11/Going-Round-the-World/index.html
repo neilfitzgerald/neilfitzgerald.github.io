@@ -6,23 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Neil Fitzgerald on ...">
-    <title>Find it Fast - Neil Fitzgerald on ...</title>
+    <title>Going Round the World - Neil Fitzgerald on ...</title>
     <meta name="author" content="Neil Fitzgerald">
     
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Finding defects quickly and efficiently brings great benefits. Developers can correct problems while code is still fresh in their head. Management can make more informed decisions about the state of t">
+    <meta name="description" content="Internationalizing your website or application is both easy, and hard. At the basic level it’s substituting in different strings and resources based on locale, but it gets much more complicated quickl">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Find it Fast">
-<meta property="og:url" content="https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/index.html">
+<meta property="og:title" content="Going Round the World">
+<meta property="og:url" content="https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/index.html">
 <meta property="og:site_name" content="Neil Fitzgerald on ...">
-<meta property="og:description" content="Finding defects quickly and efficiently brings great benefits. Developers can correct problems while code is still fresh in their head. Management can make more informed decisions about the state of t">
-<meta property="og:updated_time" content="2017-04-09T17:27:43.000Z">
+<meta property="og:description" content="Internationalizing your website or application is both easy, and hard. At the basic level it’s substituting in different strings and resources based on locale, but it gets much more complicated quickl">
+<meta property="og:updated_time" content="2017-04-11T13:05:54.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Find it Fast">
-<meta name="twitter:description" content="Finding defects quickly and efficiently brings great benefits. Developers can correct problems while code is still fresh in their head. Management can make more informed decisions about the state of t">
+<meta name="twitter:title" content="Going Round the World">
+<meta name="twitter:description" content="Internationalizing your website or application is both easy, and hard. At the basic level it’s substituting in different strings and resources based on locale, but it gets much more complicated quickl">
 <meta name="twitter:creator" content="@nfitzgerald_72">
     
         <meta rel="publisher" content="https://plus.google.com/+NeilFitzgerald"/>
@@ -215,13 +215,13 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Find it Fast
+            Going Round the World
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" datetime="2017-04-09T14:27:43-04:00">
+    <time itemprop="datePublished" datetime="2017-04-11T10:05:54-04:00">
 	
-		    Apr 09, 2017
+		    Apr 11, 2017
     	
     </time>
     
@@ -231,16 +231,30 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Finding defects quickly and efficiently brings great benefits. Developers can correct problems while code is still fresh in their head. Management can make more informed decisions about the state of the software. Defects are less likely to make it to customers. <a id="more"></a></p>
-<p>Honing the skills to find defects quickly is part of becoming a better tester. What was the complexity in the feature delivered? Who worked on the feature, and what are they likely to overlook? Are there cross-cutting concerns that are often overlooked? Where is the greatest risk? What has already been tested?</p>
-<p>The naive approach is to look at the set of test cases and work your way through them one by one, top to bottom. Applying judgement to both select which test cases to execute first, and which are worth covering is part of what experience brings. </p>
-<p>If a feature has been delivered for a web application, and the developer lets you know they have done a certain set of tests in Chrome, and your experience with the developer is they actually do the tests they say they did, you almost certainly want to start elsewhere with your testing. Start in another browser, and with test cases or more complex scenarios that they have not covered.</p>
-<p>This more thoughtful approach will help you improve your personal process, and help you find bugs earlier. Observe what methods and approaches work best for you, apply them, and share.</p>
-<h2 id="Key-Point"><a href="#Key-Point" class="headerlink" title="Key Point"></a>Key Point</h2><ul>
-<li>Finding bugs quickly and efficiently greatly improves the development process.</li>
+            <p>Internationalizing your website or application is both easy, and hard. At the basic level it’s substituting in different strings and resources based on locale, but it gets much more complicated quickly.<a id="more"></a></p>
+<p>For example, an application I was dealing with was re-using many of its language keys. It turned out that verb tense in a page header needed to be different then in a dialog in russian. In english and many other languages the you could use the same phrase in both places. This example shows you can’t just assume that a direct translation can always be used in multiple places.</p>
+<p>In another instance a website used a completely different design and authentic in Japan to gain significantly more traffic vs. the standard design used in other countries. In another case involving Japan, an issue for a website was only showing up when run on the localized version of the operating system.</p>
+<p>In all localized applications or websites I’ve dealt with length of text was an issue. It’s common for a design that looks fine in english, but to have words overflow, or wrap in odd ways in other languages. This also impact the limits for data entry elements in the user interface. Usually you want to make sure the limit is high enough that it can accommodate locale specific needs. </p>
+<p>Most languages are left to right languages. In these languages, things are scanned from the top left down to the right. Right to left languages and cultures like hebrew and arabic, are scanned from the top right and down to the left, requiring moving many user interface elements to truly localize. To add to the complication, you may have items that are left to right, embedded inside a right to left language. In a case I was involved with, we had to talk to someone who spoke and wrote the language to understand how it should behave.</p>
+<p>Choices of colors, icons, and imagery can be impacted by locale. A particularly sensitive example for symbols is the swastika. In many countries it is a stigmatized symbol due to its association with Nazism. In India, where the symbol first appeared thousands of years ago, it is a sacred religious symbol. </p>
+<p>Many of the technologies used today take care of the multi-byte nature of many languages. If something is being developed in a more low level language like C++, this may become more of a factor to look into.</p>
+<p>Make sure you have a good process in place to get things translated. There is a need to factor in turnaround time, especially if you are using contract translators. With a good process, and proper review of your locale specific changes, your users around the world will have better experiences and your business better results.</p>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Keep a lookout for items in the default language (usually english) when looking at other locales.</li>
+<li>Use different keys for each location text appears.</li>
+<li>Look at the user interface in the most highly verbose languages.<ul>
+<li>Usually Germanic or Nordic languages have the longest words. Norwegian can be longer than German.</li>
+</ul>
+</li>
+<li>Make sure colors are reviewed by a local. Colors can carry different associations depending on locale.</li>
+<li>Make sure images, icons, and messaging are reviewed by a local. Some maybe offensive, or not carry the intended message for a locale.</li>
 </ul>
 <h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
-<li><a href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100036670.pdf" target="_blank" rel="external">Error Cost Escalation Through the Project Life Cycle</a>. (n.d.). In NASA Technical Reports Server.</li>
+<li><a href="http://www.lipsum.com/" target="_blank" rel="external">Lorem Ipsum</a>. (n.d.)</li>
+<li><a href="http://www.campaignasia.com/article/cultural-blunders-brands-gone-wrong/426043" target="_blank" rel="external">Cultural blunders: Brands gone wrong</a>. Mike Fromowitz. (October 7, 2013) In Campaign. </li>
+<li><a href="https://en.wikipedia.org/wiki/Brand_blunder" target="_blank" rel="external">Brand blunder</a> (n.d.) In Wikipidia.</li>
+<li><a href="https://www.triphobo.com/blog/significance-of-colors-in-various-cultures" target="_blank" rel="external">Colours and Their Meanings in Different Cultures Around the World</a>. Neha Kapoor. (Febuary 17, 2016). In TripHobo. </li>
+<li><a href="http://en.wikipedia.org/wiki/Swastika" target="_blank" rel="external">Swastika</a>. (n.d.) In Wikipedia.</li>
 </ul>
 
             
@@ -251,7 +265,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/Bugs/">Bugs</a> <a class="tag tag--primary tag--small t-link" href="/tags/Effectiveness/">Effectiveness</a> <a class="tag tag--primary tag--small t-link" href="/tags/On-Testing/">On Testing</a> <a class="tag tag--primary tag--small t-link" href="/tags/Software-Development-Lifecycle/">Software Development Lifecycle</a> <a class="tag tag--primary tag--small t-link" href="/tags/Testing/">Testing</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/Internationalization/">Internationalization</a> <a class="tag tag--primary tag--small t-link" href="/tags/Localization/">Localization</a> <a class="tag tag--primary tag--small t-link" href="/tags/On-Process/">On Process</a> <a class="tag tag--primary tag--small t-link" href="/tags/On-Testing/">On Testing</a> <a class="tag tag--primary tag--small t-link" href="/tags/Process/">Process</a> <a class="tag tag--primary tag--small t-link" href="/tags/Testing/">Testing</a>
 
             </div>
         
@@ -260,7 +274,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/11/Going-Round-the-World/"  data-tooltip="Going Round the World">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -268,7 +282,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/07/Aesthetics-and-Usability-Matter/" data-tooltip="Aesthetics and Usability Matter">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/09/Find-it-Fast/" data-tooltip="Find it Fast">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -283,17 +297,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -341,7 +355,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/11/Going-Round-the-World/"  data-tooltip="Going Round the World">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -349,7 +363,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/07/Aesthetics-and-Usability-Matter/" data-tooltip="Aesthetics and Usability Matter">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/04/09/Find-it-Fast/" data-tooltip="Find it Fast">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -364,17 +378,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -400,17 +414,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/">
                 <i class="fa fa-twitter"></i><span>Share on Twitter</span>
             </a>
         </li>
@@ -465,9 +479,9 @@
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'https://neilfitzgerald.github.io/2017/04/09/Find-it-Fast/';
+                 this.page.url = 'https://neilfitzgerald.github.io/2017/04/11/Going-Round-the-World/';
                  
-                    this.page.identifier = '2017/04/09/Find-it-Fast/';
+                    this.page.identifier = '2017/04/11/Going-Round-the-World/';
                                   
              };
             (function() {
